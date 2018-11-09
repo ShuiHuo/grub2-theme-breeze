@@ -1,6 +1,7 @@
 # shuihuo
 A minimalistic GRUB theme inspired by shuihuo fork form [Breeze](https://github.com/gustawho/grub2-theme-breeze).
 
+下面的图没有更新，不知道怎么截图
 ![Preview 1](preview01.png)
 ![Preview 2](preview02.png)
 ![Preview 3](preview03.png)
