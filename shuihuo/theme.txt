@@ -1,0 +1,56 @@
+# shuihuo GRUB theme
+#
+# 2018, shuihuo
+#
+# Some rights reserved. This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License.
+#
+
+desktop-image: "background.png"
+
+# colors are taken from the shuihuo default theme
+title-text: " "
+title-font: "wqy-zenhei 13"
+title-color: "#eff0f1"
+message-font: "wqy-zenhei 13"
+message-color: "#eff0f1"
+terminal-font: "wqy-zenhei 13"
+terminal-box: "terminal_*.png"
+
++ boot_menu {
+  left = 25%
+  width = 50%
+  top = 30%
+  height = 40%
+
+  menu_pixmap_style = "boot_menu_*.png"
+
+  item_font = "wqy-zenhei 13"
+  # shuihuo inactive text color
+  item_color = "#7f8c8d"
+  item_height = 44
+  item_icon_space = 5
+  item_spacing = 2
+
+  selected_item_font = "wqy-zenhei 13"
+  selected_item_color= "#eff0f1"
+  selected_item_pixmap_style = "select_*.png"
+
+  icon_height = 32
+  icon_width = 32
+
+  scrollbar = true
+  scrollbar_width = 20
+  scrollbar_thumb = "slider_*.png"
+}
+
++ progress_bar {
+  id = "__timeout__"
+  left = 25%
+  width = 50%
+  top = 75%
+  height = 5
+  show_text = false
+  fg_color = #3daee9
+  bg_color = #31363b
+  border_color = #4d4d4d
+}

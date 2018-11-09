@@ -1,5 +1,5 @@
-# Breeze
-A minimalistic GRUB theme inspired by Breeze.
+# shuihuo
+A minimalistic GRUB theme inspired by shuihuo fork form [Breeze](https://github.com/gustawho/grub2-theme-breeze).
 
 ![Preview 1](preview01.png)
 ![Preview 2](preview02.png)
@@ -9,4 +9,4 @@ A minimalistic GRUB theme inspired by Breeze.
 ![Shipped icons and logos](icons.png)
 
 ## Installation
-Copy the "breeze" folder to the themes directory in /boot. If you don't know how to do it, just run the included "install.sh" script as root.
+Copy the "shuihuo" folder to the themes directory in /boot. If you don't know how to do it, just run the included "install.sh" script as root.

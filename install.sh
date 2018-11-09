@@ -5,10 +5,10 @@ main() {
   if [ -d "/boot/grub" ]
   then
     echo -e "\e[1m\e[32m==> \e[97mCopying files...\e[0m"
-    cp -rf breeze /boot/grub/themes/
+    cp -rf shuihuo /boot/grub/themes/
   else
     echo -e "\e[1m\e[32m==> \e[97mCopying files...\e[0m"
-    cp -rf breeze /boot/grub2/themes/
+    cp -rf shuihuo /boot/grub2/themes/
   fi
 
   echo -e "\e[1m\e[97m  You must set the theme in your GRUB config file,"
@@ -21,7 +21,7 @@ main() {
       if [ "$answer" = "y" ];then
         if [ -d "/boot/grub" ];then
           echo -e "  \e[5mEdit the line that begins with GRUB_THEME\e[0m"
-          echo -e "  \e[7mGRUB_THEME=/boot/grub/themes/breeze/theme.txt\e[0m"
+          echo -e "  \e[7mGRUB_THEME=/boot/grub/themes/shuihuo/theme.txt\e[0m"
           sleep 5
           nano /etc/default/grub
           echo -e "\e[1m\e[32m==> \e[97mApplying changes...\e[0m"
@@ -32,7 +32,7 @@ main() {
           break
         else
           echo -e "  \e[5mEdit the line that begins with GRUB_THEME\e[0m"
-          echo -e "  \e[7mGRUB_THEME=/boot/grub2/themes/breeze/theme.txt\e[0m"
+          echo -e "  \e[7mGRUB_THEME=/boot/grub2/themes/shuihuo/theme.txt\e[0m"
           sleep 5
           nano /etc/default/grub
           echo -e "\e[1m\e[32m==> \e[97mApplying changes...\e[0m"
