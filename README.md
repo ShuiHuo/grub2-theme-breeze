@@ -1,8 +1,8 @@
 # shuihuo
 A minimalistic GRUB theme inspired by shuihuo fork form [Breeze](https://github.com/gustawho/grub2-theme-breeze).
 
-下面的图没有更新，不知道怎么截图
-字体全是颗粒的问题没解决
+下面的图没有更新，不知道怎么截图，并且增加了字体全是颗粒的问题。
+
 ![Preview 1](preview01.png)
 ![Preview 2](preview02.png)
 ![Preview 3](preview03.png)
